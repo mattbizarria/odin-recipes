@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	/* https://stripesgenerator.com/ */
+	background-image: linear-gradient(135deg, #fcf7bb 35.71%, #f19292 35.71%, #f19292 50%, #fcf7bb 50%, #fcf7bb 85.71%, #f19292 85.71%, #f19292 100%);
+	background-size: 98.99px 98.99px;
+	font-family: serif;
+	font-size: 16px;
+}
+
+body {
+	margin: 48px auto;
+	padding: 0px 48px;
+	max-width: 576px;
+	box-sizing: border-box;
+	border: 5px solid black;
+	background-color: #f0f0f0d9;
+}
+
+body * {
+	margin: 24px auto;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a:link {
+	color: orange;
+}
+
+a:hover {
+	color: orangered;
+}
+
+a:visited {
+	color: red;
+}
+
+img {
+	display: block;
+	width: 400px;
+	height: auto;
+}
